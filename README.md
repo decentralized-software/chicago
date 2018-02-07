@@ -8,7 +8,7 @@ Want to join?
 
 If you or someone you know would like to join, please fill out [this typeform](https://bit.ly/chicago-decentralized-software).
 
-Once you've done that, please click the watch button on this repo (star us too!) to get notified of upcoming meeting dates or date and location changes.
+Once you've done that, please **click the watch button on this repo** (star us too!) to get notified of upcoming meeting dates or date and location changes.
 
 We care very much about inclusion, and we aim to include lots of people from diverse backgrounds in this group. Plenty of people say they care about inclusion, but we actually do! And we would love tips on how to do an even better job of this. 
 
