@@ -17,15 +17,14 @@ Want to help?
 
 Submit a Pull Request, file an Issue, or edit the Wiki.
 
-Why Github?
+Why GitHub?
 -----------
 
-* Github is a natural social network for a group of developers.  
-* Less spam than meetup, etc.
-* Github is free for open source repos.
+* GitHub is a natural social network for a group of developers.  
+* Less spam than Meetup, etc.
 
 Organizers
 -------
 
-* Paul Cowgill ([Github](https://github.com/pcowgill) / [Twitter](https://twitter.com/paulcowgill))
+* Paul Cowgill ([GitHub](https://github.com/pcowgill) / [Twitter](https://twitter.com/paulcowgill))
 * You?
