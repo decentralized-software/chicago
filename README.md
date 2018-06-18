@@ -1,6 +1,6 @@
 # Chicago Decentralized Software Group
 
-This is a group where software engineers get together every month or so to talk about blockchain, the decentralized web, web 3.0, DAGs, dApps, Ethereum, etc.
+This is a group where software engineers and designers get together every month or so to talk about blockchain, the decentralized web, web 3.0, DAGs, dApps, Ethereum, etc.
 
 ## Want to join?
 
@@ -12,7 +12,7 @@ Once you've done that, please **click the watch button on this repo** (star us t
 
 - We care very much about inclusion, and we aim to include lots of people from diverse backgrounds in this group. Plenty of people say they care about inclusion, but we actually do! And we would love tips on how to do an even better job of this.
 - You promise you won’t come to these events for the purpose of recruiting (even if you are a recruiter for your day job), and that if you work on blockchain or crypto full-time you won't shamelessly promote the company you work for.
-- You're mostly interested in the technology/software. If you are interested in this primarily for personal finance/investment reasons, we ask that if you'd like to participate in this group you make an effort not to talk too much about that side of things during our events.
+- You're mostly interested in the technology/software/product. If you are interested in this primarily for personal finance/investment reasons, we ask that if you'd like to participate in this group you make an effort not to talk too much about that side of things during our events.
 
 ## Want to help?
 
@@ -38,7 +38,7 @@ Here are a few quick questions just to get a feel for the crowd - none of these 
 
 - Are you interested pretty much only in Ethereum and maybe Bitcoin, or the decentralized web more generally (DAGs, IPFS, Blockstack, etc.)?
 
-- When did you first start coding for your day job (probably web 2.0 software)?
+- When did you first start coding or doing design/product work for your day job (probably web 2.0 software)?
   0-1 years ago
   2-5 years ago
   5+ years ago
