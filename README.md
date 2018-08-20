@@ -1,6 +1,8 @@
-# Chicago Decentralized Software Group
+# Decentralized Software: Chicago
 
 This is a group where software engineers and designers get together every month or so to talk about blockchain, the decentralized web, web 3.0, DAGs, dApps, Ethereum, etc.
+
+This repo is for our Chicago chapter.
 
 ## Want to join?
 
