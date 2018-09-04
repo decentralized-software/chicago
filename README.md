@@ -48,3 +48,15 @@ Here are a few quick questions just to get a feel for the crowd - none of these 
 - How many months (note the different unit of time!) have you been reading about or tinkering with software for the decentralized web?
 
 - What decentralized tool, technology, app, startup, etc. have you been thinking about most lately?
+
+## Decentralized Software in non-Chicago locations
+
+### Other cities
+
+We're open to people making a repo for other cities anywhere in the world. You can feel free to customize things as you see fit, but also feel free to use our README almost verbatim.
+
+The only part we ask that you definitely keep in order to stick with the ethos of this group is our code of conduct emphasizing inclusion.
+
+### Chicago suburbs
+
+This Chicago repo should focus only on the city of Chicago to make sure there's a critical mass of people at the meetings, but if lots of folks would prefer to meet in the suburbs, you're more than welcome to create a new repo under the https://github.com/decentralized-software org called `chicago-suburbs`, `chicago-suburbs-south`, etc.
