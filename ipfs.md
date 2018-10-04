@@ -16,7 +16,6 @@ Problem area
 IPFS tackles the problem of addressing, versioning, and distributing binary blobs 
 efficiently in a large, permissionless p2p network.
 
-
 Resource allocation
 --
 
@@ -48,3 +47,20 @@ share ration against peer A.  If the request succeeds, the node operator serves
 peer A's request.  Optimizing share ratios seems
 
 ### Filecoin
+
+How does Filecoin seek to shape or streamline the resource allocation decisions 
+of node operators?
+
+Use cases
+--
+
+### Content distribution
+
+What are the likely properties of IPFS as a method for distributing content for 
+which there is high demand?  Does IPFS simplify the content distribution puzzle 
+for small organizations with limited resources?
+
+### Censorship resistance
+
+How robust is IPFS to interference by organized adversaries seeking to make 
+some blobs unavailable?
