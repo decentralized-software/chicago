@@ -6,9 +6,16 @@ Links
 
 * [Project site][site]
 * [go-ipfs][go-ipfs] (on GitHub)
+* [whitepaper][wp] (on IPFS)
 
 [site]: https://ipfs.io
 [go-ipfs]: https://github.com/ipfs/go-ipfs
+[wp]: /ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf
+
+TODO
+--
+
+- [ ] describe Filecoin though the resource allocation lens
 
 Problem area
 --
@@ -27,7 +34,7 @@ to pay some attention to incentives.
 
 As requests for blobs and routing information stream in off the network, node 
 operators have to (tacitly) decide whether to serve these requests, and how to 
-prioritize requests that are served.
+prioritize requests that are served.  Here are some reasonable assumptions:
 
 * Profit motive.  Node operators are always willing to serve data in exchange 
   for a high enough price.
@@ -37,30 +44,35 @@ prioritize requests that are served.
 
 ### Default policy
 
-The default policy (according to the whitepaper) is to maintain a share ratio 
+The default policy (according to the ipfs whitepaper) is to maintain a share ratio 
 for each peer and to serve a peer's requests with probability given by a 
 function of this share ratio.  In this regime a node can try to balance its 
 share ratio against other peers by the following heuristic.  If peer A requests 
 a blob which the node operator doesn't have, the node operator can request the 
 same blob from one or more peers for whom the share ratio is _higher_ than the 
 share ration against peer A.  If the request succeeds, the node operator serves 
-peer A's request.  Optimizing share ratios seems
-
-### Filecoin
-
-How does Filecoin seek to shape or streamline the resource allocation decisions 
-of node operators?
+peer A's request.  
 
 Use cases
 --
 
 ### Content distribution
 
-What are the likely properties of IPFS as a method for distributing content for 
-which there is high demand?  Does IPFS simplify the content distribution puzzle 
-for small organizations with limited resources?
+IPFS should help lower the cost of content distribution, especially when users 
+who wish to get content are also willing to serve the same content to new 
+generations of users.  If a set of blobs is distributed across a large network 
+with high total bandwidth, it is harder to exhaust the bandwidth to DoS this 
+set of blobs.  However, the nodes presently don't have a way to detect a DoS 
+attack, and coordinate around ignoring requests from the attack network. 
 
 ### Censorship resistance
 
-How robust is IPFS to interference by organized adversaries seeking to make 
-some blobs unavailable?
+IPFS should make it more costly to censor content.  Some relevant threat vectors:
+
+1. Identify and filter all IPFS traffic.  This is even more difficult when IPFS 
+   is paired with network obfuscation tools like VPNs or Tor.  Connections in 
+   IPFS are encrypted, so packet inspection is not available to a passive 
+   adversary.
+2. Poison the network with nodes who connect and allow requests for content to 
+   time out.
+
