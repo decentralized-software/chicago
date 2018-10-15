@@ -45,7 +45,7 @@ function of this share ratio. In this regime a node can try to balance its
 share ratio against other peers by the following heuristic. If peer A requests
 a blob which the node operator doesn't have, the node operator can request the
 same blob from one or more peers for whom the share ratio is _higher_ than the
-share ration against peer A. If the request succeeds, the node operator serves
+share ratio against peer A. If the request succeeds, the node operator serves
 peer A's request.
 
 ## Use cases
